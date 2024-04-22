@@ -1,5 +1,5 @@
 <?php 
-include_once "PembayaranCustomer.php";
+include_once "PembayaranCostumer.php";
 include_once "Kredit.php";
 include_once "Debit.php";
 include_once "Cash.php";
