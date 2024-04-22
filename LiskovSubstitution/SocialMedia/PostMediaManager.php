@@ -1,7 +1,6 @@
 <?php 
+include_once "SocialMedia.php";
 
-include ("SocialMedia.php");
-abstract class PostMediaManager extends SocialMedia {
-    public function publishPost(): void {
-    }
+interface PostMediaManager extends SocialMedia{
+    public function publishPost(): void;
 }

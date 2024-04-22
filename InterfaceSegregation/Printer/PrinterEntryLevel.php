@@ -2,6 +2,6 @@
 
 class PrinterEntryLevel implements FiturCetak {
     public function cetakKertas(): void {
-        echo "Mencetak Kertas ...\n";
+        echo "Mencetak Kertas <br>";
     }
 }

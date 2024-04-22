@@ -1,6 +1,5 @@
 <?php 
-
-abstract class SocialMedia {
-    abstract public function chat(): void;
-    abstract public function sendPhotoAndVideo(): void;
+interface SocialMedia{
+    public function chat(): void;
+    public function sendPhotoAndVideo(): void;
 }
