@@ -1,15 +1,19 @@
+
 <?php 
 include_once "Instagram.php";
 include_once "WhatsApp.php";
-
-echo "===instagram===<br>";
+echo "-------------------------------<br>";
+echo "           Instagram           <br>";
+echo "-------------------------------<br>";
 $instagram = new Instagram();
 $instagram->chat();
 $instagram->publishPost();
 $instagram->sendPhotosAndVideos();
 
 echo "\n";
-echo "===whatsapp===<br>";
+echo "-------------------------------<br>";
+echo "           WhatsApp            <br>";
+echo "-------------------------------<br>";
 $whatsapp = new WhatsApp();
 $whatsapp->chat();
 $whatsapp->sendPhotosAndVideos();
