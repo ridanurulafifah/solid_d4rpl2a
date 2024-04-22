@@ -8,7 +8,7 @@ $instagram->publishPost();
 $instagram->sendPhotosAndVideos();
 
 echo "\n";
-echo "===watsapp===<br>";
+echo "===whatsapp===<br>";
 $whatsapp = new WhatsApp();
 $whatsapp->chat();
 $whatsapp->sendPhotoAndVideo();
