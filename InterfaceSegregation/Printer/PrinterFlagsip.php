@@ -4,7 +4,7 @@ interface FiturScan {
     public function scanKertas(): void;
 }
 
-class PrinterFlaghip implements FiturFax, FiturCetak, FiturScan {
+class PrinterFlagsip implements FiturFax, FiturCetak, FiturScan {
     public function cetakKertas(): void {
         echo "Mencetak Kertas ...\n";
     }

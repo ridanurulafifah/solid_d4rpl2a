@@ -1,10 +1,8 @@
-<?php
+<?php 
+include_once "KendaraanListrik.php";
 
-include_once ("KendaraanListrik.php");
-
-class Mobil extends KendaraanListrik {
-    public function menggunakanBaterai(): void
-    {
-        echo " Mobil menggunakan bahan bakar Listrik.\n";
+class MobilListrik implements KendaraanListrik{
+    public function menggunakanBaterai(): void{
+        echo "Menggunakan Baterai";
     }
 }
