@@ -6,5 +6,5 @@ $kubus = new Kubus();
 $kubus->calculateArea();
 $kubus->calculateVolume();
 
-$persegi = new Persegi();
+$persegi = new Persegii();
 $persegi->calculateArea();

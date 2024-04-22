@@ -1,6 +1,6 @@
 <?php 
 include_once "PenghitungPersegi.php";
 
-$persegi1 = new Persegi(4);
+$kotak = new persegi(4);
 $penghitung = new PenghitungPersegi();
-echo $penghitung->hitungLuas($persegi1);
+echo $penghitung->hitungLuas($kotak);
